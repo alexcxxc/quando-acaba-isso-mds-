@@ -1,0 +1,43 @@
+body {
+    background-color: #1D4221; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-family: "Bai Jamjuree", sans-serif; /* Fonte */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta a altura para ocupar toda a tela */
+    margin: 0;
+}
+
+button {
+    background-color: #64A712; /* Cor de fundo dos botões */
+    color: white; /* Cor do texto dos botões */
+    border: none; /* Remove bordas dos botões */
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    font-family: "Bai Jamjuree", sans-serif; /* Fonte dos botões */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    border-radius: 5px; /* Adiciona bordas arredondadas aos botões */
+    font-size: 16px; /* Ajusta o tamanho da fonte dos botões */
+}
+
+button:hover {
+    background-color: #4a8310; /* Cor de fundo ao passar o mouse sobre os botões */
+}
+
+.passo {
+    display: none; /* Oculta todos os passos por padrão */
+}
+
+.passo.ativo {
+    display: block; /* Mostra o passo ativo */
+}
+
+main {
+    text-align: center; /* Centraliza o texto */
+    max-width: 90%; /* Limita a largura máxima do conteúdo */
+}
+
+img {
+    max-width: 100%; /* Ajusta a largura das imagens para se adaptar ao contêiner */
+    height: auto; /* Mantém a proporção das imagens */
+}
